@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="5" passed="2">
+<testng-results skipped="0" failed="5" ignored="0" total="9" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="131150" started-at="2020-01-19T01:35:43 EET" finished-at="2020-01-19T01:37:54 EET">
+  <suite name="Default suite" duration-ms="252336" started-at="2020-01-19T23:22:59 EET" finished-at="2020-01-19T23:27:11 EET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="131150" started-at="2020-01-19T01:35:43 EET" finished-at="2020-01-19T01:37:54 EET">
+    <test name="Default test" duration-ms="252336" started-at="2020-01-19T23:22:59 EET" finished-at="2020-01-19T23:27:11 EET">
       <class name="registration_page_testing.NewTest">
-        <test-method status="PASS" signature="init_data()[pri:0, instance:registration_page_testing.NewTest@6536e911]" name="init_data" is-config="true" duration-ms="19690" started-at="2020-01-19T01:35:43 EET" finished-at="2020-01-19T01:36:02 EET">
+        <test-method status="PASS" signature="init_data()[pri:0, instance:registration_page_testing.NewTest@18eed359]" name="init_data" is-config="true" duration-ms="17239" started-at="2020-01-19T23:22:59 EET" finished-at="2020-01-19T23:23:16 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init_data -->
-        <test-method status="PASS" signature="all_valid_data()[pri:0, instance:registration_page_testing.NewTest@6536e911]" name="all_valid_data" duration-ms="12256" started-at="2020-01-19T01:36:03 EET" finished-at="2020-01-19T01:36:15 EET">
+        <test-method status="PASS" signature="all_valid_data()[pri:0, instance:registration_page_testing.NewTest@18eed359]" name="all_valid_data" duration-ms="8903" started-at="2020-01-19T23:23:16 EET" finished-at="2020-01-19T23:23:25 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- all_valid_data -->
-        <test-method status="PASS" signature="end_session()[pri:0, instance:registration_page_testing.NewTest@6536e911]" name="end_session" is-config="true" duration-ms="562" started-at="2020-01-19T01:36:15 EET" finished-at="2020-01-19T01:36:15 EET">
+        <test-method status="PASS" signature="close_window()[pri:0, instance:registration_page_testing.NewTest@18eed359]" name="close_window" is-config="true" duration-ms="548" started-at="2020-01-19T23:23:25 EET" finished-at="2020-01-19T23:23:26 EET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- end_session -->
-        <test-method status="FAIL" signature="frist_name()[pri:1, instance:registration_page_testing.NewTest@6536e911]" name="frist_name" duration-ms="23150" started-at="2020-01-19T01:36:15 EET" finished-at="2020-01-19T01:36:39 EET">
+        </test-method> <!-- close_window -->
+        <test-method status="PASS" signature="use_registered_email()[pri:0, instance:registration_page_testing.NewTest@18eed359]" name="use_registered_email" duration-ms="24070" started-at="2020-01-19T23:23:26 EET" finished-at="2020-01-19T23:23:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- use_registered_email -->
+        <test-method status="PASS" signature="close_window()[pri:0, instance:registration_page_testing.NewTest@18eed359]" name="close_window" is-config="true" duration-ms="562" started-at="2020-01-19T23:23:50 EET" finished-at="2020-01-19T23:23:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_window -->
+        <test-method status="FAIL" signature="frist_name()[pri:1, instance:registration_page_testing.NewTest@18eed359]" name="frist_name" duration-ms="23544" started-at="2020-01-19T23:23:50 EET" finished-at="2020-01-19T23:24:14 EET">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Register] but found [My Account]]]>
@@ -31,7 +39,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
-at registration_page_testing.NewTest.frist_name(NewTest.java:94)
+at registration_page_testing.NewTest.frist_name(NewTest.java:82)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -66,11 +74,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- frist_name -->
-        <test-method status="PASS" signature="end_session()[pri:0, instance:registration_page_testing.NewTest@6536e911]" name="end_session" is-config="true" duration-ms="374" started-at="2020-01-19T01:36:39 EET" finished-at="2020-01-19T01:36:39 EET">
+        <test-method status="PASS" signature="close_window()[pri:0, instance:registration_page_testing.NewTest@18eed359]" name="close_window" is-config="true" duration-ms="4590" started-at="2020-01-19T23:24:14 EET" finished-at="2020-01-19T23:24:19 EET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- end_session -->
-        <test-method status="FAIL" signature="last_name_1()[pri:2, instance:registration_page_testing.NewTest@6536e911]" name="last_name_1" duration-ms="24167" started-at="2020-01-19T01:36:39 EET" finished-at="2020-01-19T01:37:03 EET">
+        </test-method> <!-- close_window -->
+        <test-method status="FAIL" signature="last_name_1()[pri:2, instance:registration_page_testing.NewTest@18eed359]" name="last_name_1" duration-ms="25787" started-at="2020-01-19T23:24:19 EET" finished-at="2020-01-19T23:24:44 EET">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://www.phptravels.net/register] but found [https://www.phptravels.net/account/]]]>
@@ -82,7 +90,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
-at registration_page_testing.NewTest.last_name_1(NewTest.java:110)
+at registration_page_testing.NewTest.last_name_1(NewTest.java:98)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -117,11 +125,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- last_name_1 -->
-        <test-method status="PASS" signature="end_session()[pri:0, instance:registration_page_testing.NewTest@6536e911]" name="end_session" is-config="true" duration-ms="309" started-at="2020-01-19T01:37:03 EET" finished-at="2020-01-19T01:37:03 EET">
+        <test-method status="PASS" signature="close_window()[pri:0, instance:registration_page_testing.NewTest@18eed359]" name="close_window" is-config="true" duration-ms="363" started-at="2020-01-19T23:24:44 EET" finished-at="2020-01-19T23:24:45 EET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- end_session -->
-        <test-method status="FAIL" signature="last_name_2()[pri:3, instance:registration_page_testing.NewTest@6536e911]" name="last_name_2" duration-ms="22624" started-at="2020-01-19T01:37:03 EET" finished-at="2020-01-19T01:37:26 EET">
+        </test-method> <!-- close_window -->
+        <test-method status="FAIL" signature="last_name_2()[pri:3, instance:registration_page_testing.NewTest@18eed359]" name="last_name_2" duration-ms="25634" started-at="2020-01-19T23:24:45 EET" finished-at="2020-01-19T23:25:10 EET">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://www.phptravels.net/register] but found [https://www.phptravels.net/account/]]]>
@@ -133,7 +141,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
-at registration_page_testing.NewTest.last_name_2(NewTest.java:125)
+at registration_page_testing.NewTest.last_name_2(NewTest.java:113)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -168,19 +176,185 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- last_name_2 -->
-        <test-method status="PASS" signature="end_session()[pri:0, instance:registration_page_testing.NewTest@6536e911]" name="end_session" is-config="true" duration-ms="345" started-at="2020-01-19T01:37:26 EET" finished-at="2020-01-19T01:37:26 EET">
+        <test-method status="PASS" signature="close_window()[pri:0, instance:registration_page_testing.NewTest@18eed359]" name="close_window" is-config="true" duration-ms="647" started-at="2020-01-19T23:25:10 EET" finished-at="2020-01-19T23:25:11 EET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- end_session -->
-        <test-method status="PASS" signature="check_email()[pri:4, instance:registration_page_testing.NewTest@6536e911]" name="check_email" duration-ms="26289" started-at="2020-01-19T01:37:26 EET" finished-at="2020-01-19T01:37:53 EET">
+        </test-method> <!-- close_window -->
+        <test-method status="PASS" signature="check_email()[pri:4, instance:registration_page_testing.NewTest@18eed359]" name="check_email" duration-ms="22495" started-at="2020-01-19T23:25:11 EET" finished-at="2020-01-19T23:25:34 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_email -->
-        <test-method status="PASS" signature="end_session()[pri:0, instance:registration_page_testing.NewTest@6536e911]" name="end_session" is-config="true" duration-ms="405" started-at="2020-01-19T01:37:53 EET" finished-at="2020-01-19T01:37:53 EET">
+        <test-method status="PASS" signature="close_window()[pri:0, instance:registration_page_testing.NewTest@18eed359]" name="close_window" is-config="true" duration-ms="761" started-at="2020-01-19T23:25:34 EET" finished-at="2020-01-19T23:25:34 EET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- end_session -->
-        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:registration_page_testing.NewTest@6536e911]" name="terminateBrowser" is-config="true" duration-ms="794" started-at="2020-01-19T01:37:53 EET" finished-at="2020-01-19T01:37:54 EET">
+        </test-method> <!-- close_window -->
+        <test-method status="PASS" signature="check_password_1()[pri:5, instance:registration_page_testing.NewTest@18eed359]" name="check_password_1" duration-ms="24508" started-at="2020-01-19T23:25:34 EET" finished-at="2020-01-19T23:25:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_password_1 -->
+        <test-method status="PASS" signature="close_window()[pri:0, instance:registration_page_testing.NewTest@18eed359]" name="close_window" is-config="true" duration-ms="612" started-at="2020-01-19T23:25:59 EET" finished-at="2020-01-19T23:25:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_window -->
+        <test-method status="FAIL" signature="check_password_2()[pri:6, instance:registration_page_testing.NewTest@18eed359]" name="check_password_2" duration-ms="34035" started-at="2020-01-19T23:25:59 EET" finished-at="2020-01-19T23:26:34 EET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.phptravels.net/register] but found [https://www.phptravels.net/account/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.phptravels.net/register] but found [https://www.phptravels.net/account/]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at registration_page_testing.NewTest.check_password_2(NewTest.java:158)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_password_2 -->
+        <test-method status="PASS" signature="close_window()[pri:0, instance:registration_page_testing.NewTest@18eed359]" name="close_window" is-config="true" duration-ms="551" started-at="2020-01-19T23:26:34 EET" finished-at="2020-01-19T23:26:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_window -->
+        <test-method status="FAIL" signature="check_password_3()[pri:7, instance:registration_page_testing.NewTest@18eed359]" name="check_password_3" duration-ms="36512" started-at="2020-01-19T23:26:34 EET" finished-at="2020-01-19T23:27:11 EET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.phptravels.net/register] but found [https://www.phptravels.net/account/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.phptravels.net/register] but found [https://www.phptravels.net/account/]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at registration_page_testing.NewTest.check_password_3(NewTest.java:173)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_password_3 -->
+        <test-method status="PASS" signature="close_window()[pri:0, instance:registration_page_testing.NewTest@18eed359]" name="close_window" is-config="true" duration-ms="444" started-at="2020-01-19T23:27:11 EET" finished-at="2020-01-19T23:27:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_window -->
+        <test-method status="FAIL" signature="terminateBrowser()[pri:0, instance:registration_page_testing.NewTest@18eed359]" name="terminateBrowser" is-config="true" duration-ms="328" started-at="2020-01-19T23:27:11 EET" finished-at="2020-01-19T23:27:11 EET">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-02VH8T6', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\drahem\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32da2410d698c1536b21fad71b2652d6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-02VH8T6', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\drahem\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32da2410d698c1536b21fad71b2652d6
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at registration_page_testing.NewTest.terminateBrowser(NewTest.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.afterRun(TestRunner.java:853)
+at org.testng.TestRunner.run(TestRunner.java:594)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->

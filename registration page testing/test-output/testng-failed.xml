@@ -5,12 +5,14 @@
     <classes>
       <class name="registration_page_testing.NewTest">
         <methods>
-          <include name="end_session"/>
+          <include name="check_password_2"/>
           <include name="last_name_2"/>
           <include name="last_name_1"/>
           <include name="init_data"/>
+          <include name="close_window"/>
           <include name="frist_name"/>
           <include name="terminateBrowser"/>
+          <include name="check_password_3"/>
         </methods>
       </class> <!-- registration_page_testing.NewTest -->
     </classes>
