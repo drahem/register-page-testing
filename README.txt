@@ -12,8 +12,8 @@
 
 # to run this project on your machine:
 1- install java.
-2- install TestNG extension to eclipse. 
-3- add selenium JARs as external JARs to the project.
+2- install TestNG extension to eclipse (from eclipse marketplace). 
+3- add selenium JARs as external JARs to the project (JARs exist in folder "selenium").
 4- the class newtest : it contains all methods used to perform test cases.
 5- after running the project successfully an auto-generated report would be created contaiining the testing results, it can be found at:
     folder->test-output/index.html and test-output/emailable-report.html
