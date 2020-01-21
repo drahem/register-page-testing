@@ -3,7 +3,8 @@
 
 ### testing scope : 
     - in scope : functions related to register process,
-      1- verifiy if all input fields meets the requirements
+      1- verifiy if all input fields meets the requirements 
+         (first name - last name - email - phone - password)
       2- verify the verification email sent or not.
       
     - out of scope : all non-functional tests -load and performance test- also UI test.
