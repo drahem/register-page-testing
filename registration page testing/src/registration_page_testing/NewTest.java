@@ -57,7 +57,7 @@ private void close_window() {
 	first_name.sendKeys("Test");
 	last_name.sendKeys("Name");
 	mobile_number.sendKeys("01234567890");
-	email.sendKeys("valid99@test.com");
+	email.sendKeys("valid_data@test.com");
 	password.sendKeys("P@$$W0rd");
 	confirm_password.sendKeys("P@$$W0rd");
 	sign_up_button.click();
@@ -72,7 +72,7 @@ public void frist_name() throws InterruptedException {
 	first_name.sendKeys("mohamed");
 	last_name.sendKeys("Adel");
 	mobile_number.sendKeys("01234567890");
-	email.sendKeys("firstname201@test.com");
+	email.sendKeys("firstname@test.com");
 	password.sendKeys("P@$$W0rd");
 	confirm_password.sendKeys("P@$$W0rd");
 	sign_up_button.click();
@@ -89,7 +89,7 @@ private void last_name_1() throws InterruptedException {
 	first_name.sendKeys("Firstname");
 	last_name.sendKeys("lastname");
 	mobile_number.sendKeys("01234567890");
-	email.sendKeys("lastname550@test.com");
+	email.sendKeys("lastname@test.com");
 	password.sendKeys("P@$$W0rd");
 	confirm_password.sendKeys("P@$$W0rd");
 	sign_up_button.click();
@@ -104,7 +104,7 @@ private void last_name_2() throws InterruptedException {
 	first_name.sendKeys("Test");
 	last_name.sendKeys("Test");
 	mobile_number.sendKeys("01234567890");
-	email.sendKeys("lastname4010@xyz.abc");
+	email.sendKeys("lastname0@xyz.com");
 	password.sendKeys("P@$$W0rd");
 	confirm_password.sendKeys("P@$$W0rd");
 	sign_up_button.click();
@@ -119,7 +119,7 @@ public void check_email() throws InterruptedException {
 	first_name.sendKeys("mohamed");
 	last_name.sendKeys("adel");
 	mobile_number.sendKeys("01234567890");
-	email.sendKeys("testing");
+	email.sendKeys("email");
 	password.sendKeys("P@$$W0rd");
 	confirm_password.sendKeys("P@$$W0rd");
 	sign_up_button.click();
@@ -134,7 +134,7 @@ public void check_password_1() throws InterruptedException {
 	first_name.sendKeys("First");
 	last_name.sendKeys("Second");
 	mobile_number.sendKeys("01234567890");
-	email.sendKeys("pass@test.com");
+	email.sendKeys("password@test.com");
 	password.sendKeys("123456");
 	confirm_password.sendKeys("123456");
 	sign_up_button.click();
@@ -149,7 +149,7 @@ public void check_password_2() throws InterruptedException {
 	first_name.sendKeys("First");
 	last_name.sendKeys("Second");
 	mobile_number.sendKeys("01234567890");
-	email.sendKeys("pass100@test.com");
+	email.sendKeys("password2@test.com");
 	password.sendKeys("password");
 	confirm_password.sendKeys("password");
 	sign_up_button.click();
@@ -164,7 +164,7 @@ public void check_password_3() throws InterruptedException {
 	first_name.sendKeys("First");
 	last_name.sendKeys("Second");
 	mobile_number.sendKeys("01234567890");
-	email.sendKeys("pass200@test.com");
+	email.sendKeys("password3@test.com");
 	password.sendKeys("123456789");
 	confirm_password.sendKeys("123456789");
 	sign_up_button.click();
@@ -179,7 +179,7 @@ public void use_registered_email() throws InterruptedException {
 	first_name.sendKeys("Test");
 	last_name.sendKeys("Name");
 	mobile_number.sendKeys("01234567890");
-	email.sendKeys("valid99@test.com");
+	email.sendKeys("valid_data@test.com");
 	password.sendKeys("P@$$W0rd");
 	confirm_password.sendKeys("P@$$W0rd");
 	sign_up_button.click();
