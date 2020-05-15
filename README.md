@@ -1,5 +1,5 @@
 # register-page-testing
-###This is an automation script using Selenium and TestNG to test a register page.###
+### This is an automation script using Selenium and TestNG to test a register page.
 
 ### testing scope : 
     - in scope : functions related to register process,
@@ -11,7 +11,7 @@
 
 
 # to run this project on your machine:
-1- install java.
+1- install java and eclipse IDE.
 2- install TestNG extension to eclipse (from eclipse marketplace). 
 3- add selenium JARs as external JARs to the project (JARs exist in folder "selenium").
 4- the class newtest : it contains all methods used to perform test cases.
@@ -19,8 +19,8 @@
     folder->test-output/index.html and test-output/emailable-report.html
 5- the test can be run only once successfully, to rerun it again a change would be done,emails used in all functions would be changed.
 
-# attached to this project two excel files containg test cases report for manual testing and bugs report for manually detected defects.
-# also attached the automation reports in two .html files "index.html" & "emailable-report.html"
+## attached to this project two excel files containg test cases report for manual testing and bugs report for manually detected defects.
+## also attached the automation reports in two .html files "index.html" & "emailable-report.html"
 
 
   
